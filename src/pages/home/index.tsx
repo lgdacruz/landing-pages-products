@@ -25,30 +25,19 @@ export default function Home() {
 
       <ContainerContent onClick={CloseMenu}>
         <div>
-          <h1>Mirella Casquilho</h1>
+          <h1>Autor</h1>
 
-          <p>
-            Mirella Casquilho tem 28 anos e já ajudou centenas de pessoas a alcançarem o cabelo dos
-            sonhos durante os 2 anos que atua na internet com conteúdos sobre cabelo. É formada em
-            pedagogia e está cursando Pós Gradução em Tricologia e Terapia Capilar, área que vem se
-            destacando pelos resultados.
-          </p>
+          <p>Descrição do autor</p>
         </div>
         <div>
-          <img
-            loading="lazy"
-            src="mirella.png"
-            alt="Mirella"
-            style={{ width: "300px", height: "400px", margin: "1rem" }}
-          />
           <nav>
-            <a href="https://www.instagram.com/mirellacasquilhoo" target="_blank" rel="noreferrer">
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
               <img loading="lazy" src="instagram.png" alt="Instagram" />
             </a>
-            <a href="https://www.youtube.com/c/MirellaCasquilho" target="_blank" rel="noreferrer">
+            <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
               <img loading="lazy" src="youtube.png" alt="youtube" />
             </a>
-            <a href="https://www.tiktok.com/@mirellacasquilho" target="_blank" rel="noreferrer">
+            <a href="https://www.tiktok.com/" target="_blank" rel="noreferrer">
               <img loading="lazy" src="tiktok.png" alt="tiktok" />
             </a>
           </nav>

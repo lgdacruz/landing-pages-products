@@ -1,8 +1,7 @@
 import axios from "axios";
 
 const Api = axios.create({
-  baseURL: "https://api-mirelland.herokuapp.com",
-  // https://api-mirelland.herokuapp.com
+  baseURL: "http://localhost:333",
   // http://localhost:333
 });
 

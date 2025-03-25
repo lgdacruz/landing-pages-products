@@ -29,7 +29,7 @@ export default function RoutesIndex() {
         </Routes>
       </BrowserRouter>
       {/* WHATSAP  */}
-      <Whats href="https://api.whatsapp.com/send?phone=5512996870973" target="_blank">
+      <Whats href="https://api.whatsapp.com/" target="_blank">
         <Img loading="lazy" src="whatsapp.png" alt="whatsapp" />
       </Whats>
       {/* TERMOS DE PRIVACIDADE  */}
@@ -51,7 +51,7 @@ export default function RoutesIndex() {
       </Privacy>
       {/* RODAPÉ  */}
       <Footer>
-        <p>© 2022 MIRELLA CASQUILHO. All rights reserved.</p>
+        <p>© All rights reserved.</p>
       </Footer>
     </>
   );
